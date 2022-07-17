@@ -17,9 +17,10 @@ There are 3 ways how days are counted:
 *   Day-by-day: Similar to login stack but without the stack restriction. Missing a day would not affect anything. For example, if the player didn't log in on the 2nd day, he can still claim the 2nd reward on the 3rd day when he logs in. The simplest and wildly used in most games.
 
 ![](https://www.richardfu.net/wp-content/uploads/monthly_calendar_login_streak_dragon_city-1-1024x576.jpg)
-Login streak (right) and monthly calendar (left) in Dragon City
+*Login streak (right) and monthly calendar (left) in Dragon City*
+
 ![](https://www.richardfu.net/wp-content/uploads/day_to_day_no_humanity-1-473x1024.jpg)
-Day-by-day in No Humanity
+*Day-by-day in No Humanity*
 
 > Some games have multiplie login rewards with differenent obtain-ways. E.g. having login stack with monthly calendar, since they can work independently.
 
@@ -96,8 +97,3 @@ Here we need to save 5 values:
 *   LastDailyLoginDate - The last date that reward is contained, so no multiple rewards can be contained in one day.
 *   DailyLoginEnabled - Used to temporarily disable daily login, in tutorials for example.
 *   DailyLoginSceneLoadedCount - Used to auto-enable daily login, in 3rd app load for example.
-
-Conclusion
-----------
-
-Although a daily system sounds to be easy and small, the scripts we developed are actually quite large, due to the fact that we organized the code in MVC design and have scalable settings for catering to different reward types.
