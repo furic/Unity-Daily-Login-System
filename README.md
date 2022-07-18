@@ -3,7 +3,7 @@ A simple reward system that gets the players coming back every day or so. In thi
 
 A overview of the module can be found [here](https://www.richardfu.net/create-a-daily-login-reward-system-in-unity/).
 
-We can probably see a daily login reward system in every game nowadays. It's a simple reward system that gets the players coming back every day or so. In this article, I'll show you in detail how to develop a local-stored daily login system in Unity, using the MVC approach.
+We probably see a daily login reward system in every game nowadays. It's a simple reward system that gets the players coming back every day or so. In this article, I'll show you in detail how to develop a local-stored daily login system in Unity, using the MVC approach.
 
 ## What's Daily Login
 --------------
